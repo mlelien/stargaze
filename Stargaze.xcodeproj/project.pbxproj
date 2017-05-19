@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16156C417AB732DDECDC024F /* Pods_Stargaze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26FA20C3BCA6495E6AA8C359 /* Pods_Stargaze.framework */; };
+		981A7A721E228A1500113FC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981A7A711E228A1500113FC3 /* AppDelegate.swift */; };
+		981A7A741E228A1500113FC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981A7A731E228A1500113FC3 /* ViewController.swift */; };
+		981A7A771E228A1500113FC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981A7A751E228A1500113FC3 /* Main.storyboard */; };
+		981A7A791E228A1500113FC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981A7A781E228A1500113FC3 /* Assets.xcassets */; };
+		981A7A7C1E228A1500113FC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981A7A7A1E228A1500113FC3 /* LaunchScreen.storyboard */; };
+		982FE1C91E23387E00EB71E7 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982FE1C81E23387E00EB71E7 /* Settings.swift */; };
+		989CC3501E22A50B000073EA /* TimelineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989CC34F1E22A50B000073EA /* TimelineTableViewCell.swift */; };
+		98A850DD1E2BA0ED00CB050F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A850DC1E2BA0ED00CB050F /* Alamofire.framework */; };
+		98ACE9CC1E22A67100084D53 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ACE9CB1E22A67100084D53 /* Network.swift */; };
+		98F4C94D1E228A80006DDA62 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F4C94C1E228A80006DDA62 /* SwiftyJSON.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26FA20C3BCA6495E6AA8C359 /* Pods_Stargaze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stargaze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		723B4814AF1D7D36421ADB3D /* Pods-Stargaze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stargaze.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stargaze/Pods-Stargaze.release.xcconfig"; sourceTree = "<group>"; };
+		981A7A6E1E228A1500113FC3 /* Stargaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stargaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		981A7A711E228A1500113FC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		981A7A731E228A1500113FC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		981A7A761E228A1500113FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		981A7A781E228A1500113FC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		981A7A7B1E228A1500113FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		981A7A7D1E228A1500113FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		982FE1C81E23387E00EB71E7 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		989CC34F1E22A50B000073EA /* TimelineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewCell.swift; sourceTree = "<group>"; };
+		98A850DC1E2BA0ED00CB050F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../Library/Developer/Xcode/DerivedData/Stargaze-comxqbngxegdlzbiftvzhbyrjhbp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		98ACE9CB1E22A67100084D53 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		98F4C94C1E228A80006DDA62 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../Library/Developer/Xcode/DerivedData/Stargaze-comxqbngxegdlzbiftvzhbyrjhbp/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		BBE3A2B8A40E99C85DF7E857 /* Pods-Stargaze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stargaze.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stargaze/Pods-Stargaze.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		981A7A6B1E228A1500113FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A850DD1E2BA0ED00CB050F /* Alamofire.framework in Frameworks */,
+				98F4C94D1E228A80006DDA62 /* SwiftyJSON.framework in Frameworks */,
+				16156C417AB732DDECDC024F /* Pods_Stargaze.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		981A7A651E228A1500113FC3 = {
+			isa = PBXGroup;
+			children = (
+				981A7A701E228A1500113FC3 /* Stargaze */,
+				981A7A6F1E228A1500113FC3 /* Products */,
+				E546A65D10358CE81D3D8C81 /* Pods */,
+				D0D0E49819939F44D5368BDA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		981A7A6F1E228A1500113FC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				981A7A6E1E228A1500113FC3 /* Stargaze.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		981A7A701E228A1500113FC3 /* Stargaze */ = {
+			isa = PBXGroup;
+			children = (
+				981A7A711E228A1500113FC3 /* AppDelegate.swift */,
+				981A7A731E228A1500113FC3 /* ViewController.swift */,
+				98ACE9CB1E22A67100084D53 /* Network.swift */,
+				989CC34F1E22A50B000073EA /* TimelineTableViewCell.swift */,
+				982FE1C81E23387E00EB71E7 /* Settings.swift */,
+				981A7A751E228A1500113FC3 /* Main.storyboard */,
+				981A7A781E228A1500113FC3 /* Assets.xcassets */,
+				981A7A7A1E228A1500113FC3 /* LaunchScreen.storyboard */,
+				981A7A7D1E228A1500113FC3 /* Info.plist */,
+			);
+			path = Stargaze;
+			sourceTree = "<group>";
+		};
+		D0D0E49819939F44D5368BDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98A850DC1E2BA0ED00CB050F /* Alamofire.framework */,
+				98F4C94C1E228A80006DDA62 /* SwiftyJSON.framework */,
+				26FA20C3BCA6495E6AA8C359 /* Pods_Stargaze.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E546A65D10358CE81D3D8C81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBE3A2B8A40E99C85DF7E857 /* Pods-Stargaze.debug.xcconfig */,
+				723B4814AF1D7D36421ADB3D /* Pods-Stargaze.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		981A7A6D1E228A1500113FC3 /* Stargaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981A7A801E228A1500113FC3 /* Build configuration list for PBXNativeTarget "Stargaze" */;
+			buildPhases = (
+				31BBF7F7D3911E945776316D /* [CP] Check Pods Manifest.lock */,
+				981A7A6A1E228A1500113FC3 /* Sources */,
+				981A7A6B1E228A1500113FC3 /* Frameworks */,
+				981A7A6C1E228A1500113FC3 /* Resources */,
+				F49EADC28DF9AAA0B20E4587 /* [CP] Embed Pods Frameworks */,
+				3CD42C6D3F148D2ABFCC137C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stargaze;
+			productName = Stargaze;
+			productReference = 981A7A6E1E228A1500113FC3 /* Stargaze.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		981A7A661E228A1500113FC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = EmilyLien;
+				TargetAttributes = {
+					981A7A6D1E228A1500113FC3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MP3F2VY4AY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 981A7A691E228A1500113FC3 /* Build configuration list for PBXProject "Stargaze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 981A7A651E228A1500113FC3;
+			productRefGroup = 981A7A6F1E228A1500113FC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				981A7A6D1E228A1500113FC3 /* Stargaze */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		981A7A6C1E228A1500113FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981A7A7C1E228A1500113FC3 /* LaunchScreen.storyboard in Resources */,
+				981A7A791E228A1500113FC3 /* Assets.xcassets in Resources */,
+				981A7A771E228A1500113FC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31BBF7F7D3911E945776316D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3CD42C6D3F148D2ABFCC137C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stargaze/Pods-Stargaze-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F49EADC28DF9AAA0B20E4587 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stargaze/Pods-Stargaze-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		981A7A6A1E228A1500113FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981A7A741E228A1500113FC3 /* ViewController.swift in Sources */,
+				989CC3501E22A50B000073EA /* TimelineTableViewCell.swift in Sources */,
+				98ACE9CC1E22A67100084D53 /* Network.swift in Sources */,
+				981A7A721E228A1500113FC3 /* AppDelegate.swift in Sources */,
+				982FE1C91E23387E00EB71E7 /* Settings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		981A7A751E228A1500113FC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				981A7A761E228A1500113FC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		981A7A7A1E228A1500113FC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				981A7A7B1E228A1500113FC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		981A7A7E1E228A1500113FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		981A7A7F1E228A1500113FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		981A7A811E228A1500113FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBE3A2B8A40E99C85DF7E857 /* Pods-Stargaze.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MP3F2VY4AY;
+				INFOPLIST_FILE = Stargaze/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EmilyLien.Stargaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		981A7A821E228A1500113FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 723B4814AF1D7D36421ADB3D /* Pods-Stargaze.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MP3F2VY4AY;
+				INFOPLIST_FILE = Stargaze/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EmilyLien.Stargaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		981A7A691E228A1500113FC3 /* Build configuration list for PBXProject "Stargaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981A7A7E1E228A1500113FC3 /* Debug */,
+				981A7A7F1E228A1500113FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		981A7A801E228A1500113FC3 /* Build configuration list for PBXNativeTarget "Stargaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981A7A811E228A1500113FC3 /* Debug */,
+				981A7A821E228A1500113FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 981A7A661E228A1500113FC3 /* Project object */;
+}
